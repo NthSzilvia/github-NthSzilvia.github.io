@@ -1,0 +1,143 @@
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
+
+.header #szoveg {
+  font-family: 'Abril Fatface', cursive;
+  color: #222 grey;
+  position: absolute;
+  top: 10%;
+  left: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0px
+  
+}
+.section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px
+  }
+
+.blocquotef {
+  font-family: 'Abril Fatface', cursive;
+  background-color: black;
+  color: white;
+  width: 800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 46px;
+  padding: 50px 0px 30px 60px;
+  position: relative
+}
+
+blocquote::before {
+ content:'”' ;
+ font-family: 'Elephant';
+ font-size: 140px;
+ top: -30px;
+ left: 0;
+ position: absolute;
+}
+.blocquotes {
+  font-family: 'Abril Fatface', cursive;
+  background-color: black;
+  color: white;
+  width: 800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 46px;
+  padding: 60px 0px 80px 60px;
+  position: relative
+}
+.blocquotet {
+  font-family: 'Abril Fatface', cursive;
+  background-color: black;
+  color: white;
+  width: 800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 46px;
+  padding: 50px 0px 80px 60px;
+  position: relative
+}
+h1 {
+  font-family: 'Lexend', sans-serif;
+  color: #222 grey;
+  font-size: 20px;
+  line-height: 40px
+}
+ h2 {
+  font-family: 'Lexend', sans-serif;
+  color: #222 grey;
+  font-size: 20px;
+  line-height: 1px
+  }
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 1px
+}
+ul {
+  margin: 40px 70px 40px 0px;
+  line-height: 30px
+}
+p {
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-family:'Lexend', sans-serif;
+  font-size: 15px;
+}
+li {
+  line-height: 25px;
+  font-family:'Lexend', sans-serif;
+  font-size: 15px;
+}
+hr {
+  border-width: 2px;
+  border-color: black;
+  margin-left: -20px;
+}
+
+.pagescrolling-left {
+  background: grey;
+  width: 30px;
+  height: 100px;
+  position: fixed;
+  bottom: 200px;
+  left: 60px;
+  
+}
+
+.pagescrolling-right {
+  background: grey;
+  width: 30px;
+  height: 100px;
+  position: fixed;
+  bottom: 200px;
+  right: 1000px;
+}
+
+a:hover{
+  width: 60px;
+}
+button {
+  font-size: 16px;
+  width: 140px;
+  height: 50px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 30%;
+  box-shadow: 0px 3px 1px 2px #E6EBEB;
+  position: fixed;
+  left: 450px;
+  bottom: 50px;
+}
